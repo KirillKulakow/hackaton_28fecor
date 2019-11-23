@@ -1,0 +1,132 @@
+
+.title__section{
+  @media (min-width:1200px){
+    padding-bottom: 90px;
+  }
+}
+
+.key__title-text{
+  // width: 970px;
+  // height: 166px;
+  font-size: 18px;
+  line-height: 36px;
+  color: $maintext-color;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  @media (min-width:1200px){
+    padding-bottom: 100px;
+  }
+}
+
+.key__column{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 70px 0px 70px;
+
+  @media (min-width:1200px){
+
+    background-image: url(../../images/img/screen@1x.png);
+    background-repeat: no-repeat;
+    min-height: 680px;
+    background-position: center top;
+
+  }
+  @media(min-resolution: 192dpi),(-webkit-min-device-pixel-ratio:2) {
+    background-image: url(../../images/img/screen@2x.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }   
+  
+}  
+
+// .key__list{
+//   //width: 350px;
+//   // height: 250px;    
+//   // display: flex;
+//   // flex-wrap: wrap;
+//   // justify-content: space-around;
+//   // align-content: space-between;
+//   // padding-top: 30px;
+//   // padding-bottom: 30px;
+// }
+
+.key__list-item{
+  width: 350px;        
+  padding-left: 60px;    
+  position: relative;
+  padding-bottom: 30px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &_iconboard::before{
+    background-image: url(../../images/icons/iconboard.png);
+  }
+
+  &_icondevicehub::before{
+    background-image: url(../../images/icons/icondevicehub.png);
+  }
+
+  &_iconthumbup::before{
+    background-image: url(../../images/icons/iconthumbup.png);
+  }
+
+  &_iconstar::before{
+    background-image: url(../../images/icons/iconstar.png);
+  }
+
+  &_iconnotification::before{
+    background-image: url(../../images/icons/iconnotification.png);
+  }
+
+  &_iconshare::before{
+    background-image: url(../../images/icons/iconshare.png);
+  }
+}
+
+.key__list-title {
+  font-size: 18px;
+  line-height: 18px;
+  color: $maintext-color;
+  font-family: "Raleway";
+  font-weight: 700;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.key__list-text {
+  font-size: 13px;
+  line-height: 24px;
+  color: $maintext-color;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: left;
+}
+
+// .column-1{
+//   @media (min-width:1200px){
+//     display: flex;
+//     justify-content: left;
+//     flex-wrap: wrap;
+
+//   }
+// }
+
+// .column-2{
+//   @media (min-width:1200px){
+//     display: flex;
+//     justify-content: right;
+//     flex-wrap: wrap;
+//   }
+// }
