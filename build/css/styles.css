@@ -280,7 +280,7 @@ body {
     display: inline-block;
     content: '';
     width: 60px;
-    height: 1px;
+    height: 2px;
     background-color: #b2b2b2;
     margin: 12px;
     margin-bottom: 6px; } }
