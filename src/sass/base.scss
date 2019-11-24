@@ -16,8 +16,15 @@ body {
 
 .container {
   width: 320px;
+  max-width: 320px;
+  overflow: hidden;
 }
-
+@media (min-width:1150px) and (max-width:1199px){
+  .container{
+      width: 320px;
+      max-width: 320px;
+  }
+}
 @media (min-width:1200px){
   .container{
     width: 1200px;
