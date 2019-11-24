@@ -323,7 +323,7 @@ body {
   margin-bottom: 45px;
   min-width: 320px;
   max-width: 320px;
-  background-image: -webkit-image-set(url(../../images/img/bcg_header.png) 1x, url(../../images/img/bcg_header@2x.png) 2x);
+  background-image: -webkit-image-set(url(../images/img/bcg_header.png) 1x, url(../images/img/bcg_header@2x.png) 2x);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 45px; }
@@ -570,14 +570,14 @@ body {
   padding: 27px 0px 10px; }
   @media (min-width: 1200px) {
     .key__column {
-      background-image: url(../../images/img/screen@1x.png);
+      background-image: url(../images/img/screen@1x.png);
       background-repeat: no-repeat;
       min-height: 680px;
       background-position: center top;
       padding: 75px 0px 92px; } }
   @media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
     .key__column {
-      background-image: url(../../images/img/screen@2x.png);
+      background-image: url(../images/img/screen@2x.png);
       background-repeat: no-repeat;
       background-position: center top;
       padding: 75px 0px 70px; } }
@@ -603,17 +603,17 @@ body {
     background-position: center;
     background-size: contain; }
   .key__list-item_iconboard::before {
-    background-image: url(../../images/icons/iconboard.png); }
+    background-image: url(../images/icons/iconboard.png); }
   .key__list-item_icondevicehub::before {
-    background-image: url(../../images/icons/icondevicehub.png); }
+    background-image: url(../images/icons/icondevicehub.png); }
   .key__list-item_iconthumbup::before {
-    background-image: url(../../images/icons/iconthumbup.png); }
+    background-image: url(../images/icons/iconthumbup.png); }
   .key__list-item_iconstar::before {
-    background-image: url(../../images/icons/iconstar.png); }
+    background-image: url(../images/icons/iconstar.png); }
   .key__list-item_iconnotification::before {
-    background-image: url(../../images/icons/iconnotification.png); }
+    background-image: url(../images/icons/iconnotification.png); }
   .key__list-item_iconshare::before {
-    background-image: url(../../images/icons/iconshare.png); }
+    background-image: url(../images/icons/iconshare.png); }
 
 .key__list-title {
   font-size: 18px;
@@ -1078,7 +1078,7 @@ footer {
 
 .footer {
   margin: 0 auto;
-  background-image: url(../../images/img/bcg_footer@1x.png);
+  background-image: url(../images/img/bcg_footer@1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
