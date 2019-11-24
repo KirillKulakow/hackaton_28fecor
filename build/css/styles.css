@@ -1083,7 +1083,7 @@ footer {
   background-position: center;
   background-size: cover;
   min-width: 320px;
-  width: 320px;
+  max-width: 320px;
   min-height: 678px;
   height: 978px; }
   .footer__title {
