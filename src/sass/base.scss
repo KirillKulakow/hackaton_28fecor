@@ -6,10 +6,12 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  // outline: 1px solid purple;
 }
 
 body {
   font-family: 'Raleway', 'Open Sans', sans-serif;
+
 }
 
 .container {

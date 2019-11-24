@@ -1,7 +1,9 @@
-
-.title__section{
+.key__title-d{
+  margin-left: -15px;
+  margin-right: -15px;
   font-size: 18px;
   font-weight: 700;
+  padding-bottom: 18px;
   @media (min-width:1200px){
     padding-bottom: 75px;
     font-size: 28px;
@@ -11,11 +13,13 @@
 
 .key__title-text{
   font-size: 14px;
-  line-height: 23px;
+  line-height: 26px;
   color: $maintext-color;
   font-family: "Open Sans";
   font-weight: 400;
   text-align: center;
+  margin-left: -12px;
+  margin-right: -12px;
   @media (min-width:1200px){
     padding-bottom: 77px;
     width: 1045px;

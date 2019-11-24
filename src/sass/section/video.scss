@@ -1,9 +1,18 @@
 .video
 {
     background-color: $blue-color;
-    padding-top: 105px;
-}
+    padding-top: 70px;
+    max-width: 1145px;
+    margin: 0 auto;
 
+}
+.video__icon{
+    width: 34px;
+    height: 34px;
+    fill: #ffffff;
+    margin:18px;
+    
+}
 .video__header
 {
     color: $maintext-color; /* text color */
@@ -11,7 +20,7 @@ font-family: "Raleway";
 @include font-settings (28px, 18px);
 font-weight: bold;
 text-transform: uppercase;
-margin-bottom: 30px;
+margin-bottom: 23px;
 }
 .video__desc
 {
