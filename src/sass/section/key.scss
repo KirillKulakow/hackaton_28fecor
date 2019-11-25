@@ -37,14 +37,14 @@
   padding: 27px 0px 10px;
 
   @media (min-width:1200px){
-    background-image: url(../../images/img/screen@1x.png);
+    background-image: url(../images/img/screen@1x.png);
     background-repeat: no-repeat;
     min-height: 680px;
     background-position: center top;
     padding: 75px 0px 92px;
   }
-  @media(min-resolution: 192dpi),(-webkit-min-device-pixel-ratio:2) {
-    background-image: url(../../images/img/screen@2x.png);
+  @media (min-width:1200px) and (min-resolution: 192dpi) and (-webkit-min-device-pixel-ratio:2) {
+    background-image: url(../images/img/screen@2x.png);
     background-repeat: no-repeat;
     background-position: center top;
     padding: 75px 0px 70px;
@@ -83,31 +83,32 @@
     height: 32px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    fill: $turquoise-color;
+    background-size: 32px 32px; 
   }
 
   &_iconboard::before{
-    background-image: url(../../images/icons/iconboard.png);
+    background-image: url(../images/icons/baseline-developer_board-24px.svg);
   }
 
   &_icondevicehub::before{
-    background-image: url(../../images/icons/icondevicehub.png);
+    background-image: url(../images/icons/baseline-device_hub-24px.svg);
   }
 
   &_iconthumbup::before{
-    background-image: url(../../images/icons/iconthumbup.png);
+    background-image: url(../images/icons/baseline-thumb_up_alt-24px.svg);
   }
 
   &_iconstar::before{
-    background-image: url(../../images/icons/iconstar.png);
+    background-image: url(../images/icons/baseline-star-24px.svg);
   }
 
   &_iconnotification::before{
-    background-image: url(../../images/icons/iconnotification.png);
+    background-image: url(../images/icons/baseline-notifications-24px.svg);
   }
 
   &_iconshare::before{
-    background-image: url(../../images/icons/iconshare.png);
+    background-image: url(../images/icons/baseline-share-24px.svg);
   }
 
 }

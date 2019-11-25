@@ -4,12 +4,12 @@ footer{
 }
 .footer{
     margin: 0 auto;
-    background-image: url(../../images/img/bcg_footer@1x.png);
+    background-image: url(../images/img/bcg_footer@1x.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-width: 320px;
-    width: 320px;
+    max-width: 320px;
     min-height: 678px;
     height: 978px;
     

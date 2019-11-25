@@ -2,7 +2,6 @@
 {
     background-color: $blue-color;
     padding-top: 70px;
-    max-width: 1145px;
     margin: 0 auto;
 
 }
@@ -15,7 +14,7 @@
 }
 .video__header
 {
-    color: $maintext-color; /* text color */
+color: $maintext-color; /* text color */
 font-family: "Raleway";
 @include font-settings (28px, 18px);
 font-weight: bold;
