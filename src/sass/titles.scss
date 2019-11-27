@@ -1,12 +1,17 @@
 .title__section::before,
+.title__section::after{
+  display: none;
+}
+@media(min-width:1200px) {.title__section::before,
 .title__section::after {
   display:inline-block;
   content:'';
   width:60px;
-  height:1px;
+  height:2px;
   background-color:$grey4-color;
   margin: 12px;
   margin-bottom:6px;
+}
 }
 
 .title__section {
