@@ -1,6 +1,7 @@
 .video
 {
-    background-color: $blue-color;
+    background: linear-gradient(to right,#0cebeb,#20e3b2, #29ffc6);
+
     padding-top: 70px;
     margin: 0 auto;
 
@@ -41,10 +42,13 @@ margin-bottom: 23px;
     background-color: $darkerblue-color;
     border-radius: 50%;
     position: relative;
+  
 }
 .icon_apple:hover, .icon_android:hover
 {
-    background-color: $turquoise-color;
+    background-color: purple;
+    transform: rotate(36000deg);
+    transition-duration: 0.5s; ;
 }
 .icon_apple:hover, .icon_android:hover .video__svg>.apple-fill
 {
@@ -127,6 +131,7 @@ margin-bottom: 23px;
 .desc_part
 {
     padding-bottom: 38px;
+padding-top: 20px   ;
 }
 .vimeo_part {
     width: 100%;
