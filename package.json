@@ -9,12 +9,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": "https://github.com/Timyr4ikon/team-hackaton-28-fe",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/Timyr4ikon/team-hackaton-28-fe.git"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
